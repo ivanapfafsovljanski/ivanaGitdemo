@@ -13,6 +13,7 @@ public class DemoTest {
 				"driver-lib\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
+		driver.navigate().to("https://www.google.rs/webhp?source=search_app");
 		
 		
 }
